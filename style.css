@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+    .header {
+        padding: 25px;
+        background-color: aquamarine;
+        text-align: center;
+    }
+
+    .content {
+        padding: 70px;
+        background-color: rgb(127, 193, 255);
+        text-align: center;
+    }
+
+    .signup {
+        padding: 25px;
+        background-color: rgb(209, 98, 70);
+        text-align: center;
+    }
+
+    .feature {
+        padding: 25px;
+        background-color: rgb(247, 243, 55);
+        text-align: center;
+    }
+
+    .feature2 {
+        padding: 25px;
+        background-color: rgb(30, 158, 83);
+        text-align: center;
+    }
+
+    .feature3 {
+        padding: 25px;
+        background-color: rgb(74, 55, 247);
+        text-align: center;
+    }
+  }
+
+
+  @media screen and (min-width: 1024px) , screen and (min-height: 1366px) {
+    .header {
+        padding: 32px;
+        background-color: aquamarine;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .content {
+        padding: 110px;
+        background-color: rgb(127, 193, 255);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .signup {
+        padding: 32px;
+        background-color: rgb(209, 98, 70);
+        text-align: center;
+        font-size: 25px;
+        float: left;
+        width: 50%;
+        
+    }
+
+    .feature {
+        padding: 32px;
+        background-color: rgb(247, 243, 55);
+        text-align: center;
+        font-size: 25px;
+        float: right;
+        width: 50%;   
+    }
+
+    .feature2 {
+        padding: 32px;
+        background-color: rgb(30, 158, 83);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .feature3 {
+        padding: 32px;
+        background-color: rgb(74, 55, 247);
+        text-align: center;
+        font-size: 25px;
+    }
+  }
+
+
+  @media screen and (min-width: 1920px) , screen and (min-height: 1080px) {
+      
+      body {
+          position: absolute;
+      }
+    
+    
+      .header {
+          padding: 65px;
+          position: absolute;
+          width: 1920px;
+      }
+
+      .content {
+        padding: 110px;
+        background-color: rgb(127, 193, 255);
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 600px;
+        width: 1750px;
+        height: 100px;
+    }
+
+    .signup {
+        padding: 32px;
+        background-color: rgb(209, 98, 70);
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 473px;
+        width: 1920px;
+        height: 70px;
+        
+    }
+
+    .feature {
+        padding: 32px;
+        background-color: rgb(247, 243, 55);
+        text-align: center;
+        font-size: 25px;
+        float: right;
+        width: 50%;   
+        position: absolute;
+        margin-top: 160px;
+        width: 651px;
+        height: 250px;
+        
+    }
+
+    .feature2 {
+        padding: 32px;
+        background-color: rgb(30, 158, 83);
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 160px;
+        width: 550px;
+        margin-left: 715px;
+        height: 250px;
+    }
+
+    .feature3 {
+        padding: 32px;
+        background-color: rgb(74, 55, 247);
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 160px;
+        width: 550px;
+        height: 250px;
+        margin-left: 1306px;
+    }
+
+
+      
+  }
